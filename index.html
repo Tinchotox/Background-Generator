@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Gradient Background</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body id ='gradient'>
+	<h1 class="animate__animated animate__zoomIn">Background Generator</h1>
+    <p>Choose two colors</p>
+	<div>
+		<input class="color1" type="color" name="color1" value= "#00ff9D">
+		<input class="color2" type="color" name="color2" value= "#D91AFF">
+		<br><br>
+		<button id = "random" class='gradientBtn'>Random</button>
+	</div>
+	<h2>Current Gradient Background</h2>
+
+	<!-- GradientText -->
+	<textarea  id='gradientTxt' rows ='1' cols = '45' readonly></textarea>
+	<br>
+	<button id='copyBtn'>Copy Gradient</button>
+<br><br>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

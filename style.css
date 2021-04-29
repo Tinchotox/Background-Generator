@@ -1,0 +1,78 @@
+body {
+    font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    background: linear-gradient(to right, #2684f7, #f5383d);
+    margin-top: 100px;
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .45em;
+    width: 100%;
+    text-shadow: 3px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font: 300 2em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .45em;
+    width: 100%;
+    text-shadow: 3px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font: 600 1.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .45em;
+    width: 100%;
+    text-shadow: 3px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.color1, .color2, #copyBtn {
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+    border: none;
+}
+
+#random {
+    cursor: pointer;
+    margin: auto;
+    padding: 5px;
+    border: solid 5px white;
+    background: linear-gradient(to right, rgb(0, 255, 157), rgb(217, 26, 255));
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+}
+
+#random:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+
+#gradientTxt {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    resize: none;  /*disables textarea's resize/stretchable corner */
+    border: none;
+}
+
+
+/*Animation from https://animate.style/*/
+.animate__animated.animate__zoomIn {
+    --animate-duration: 3s;
+}
